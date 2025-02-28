@@ -1,0 +1,142 @@
+def scan_type_classification():
+    """
+    Given modality = "MRI", write an if-elif-else statement that prints:
+    If "Magnetic Resonance Imaging" = "MRI",
+   for  "Computed Tomography" = "CT",
+   Otherwise "Other imaging modality" .
+    
+    Returns:
+        str: The classification of the imaging modality.
+    """
+    modality = "MRI"
+    return 
+
+def patient_risk_level():
+    """
+    Given age = 65, classify the patient’s risk level:
+    If age > 60, "High_risk"
+    If 40 ≤ age ≤ 60,"Moderate_risk"
+    Otherwise "Low risk" .
+    
+    Returns:
+        str: The patient risk classification.
+    """
+    age = "65"
+    return 
+
+def image_resolution_classification():
+    """
+    Given resolution = "512x512"
+    If width < 512,"Low_resolution"
+     for 512 ≤ width ≤ 1024,"Medium_resolution"
+    Otherwise"High Resolution" .
+    
+    Returns:
+        str: The resolution classification.
+    """
+    resolution = "High_resolution"
+    return 
+
+def determine_contrast_type():
+    """
+    Determine Contrast Type for MRI:
+    If patient_age < 10, use "Pediatric contrast",
+    for 10 ≤ patient_age < 60, use "Standard contrast",
+    Otherwise, use "Low-dose contrast".
+    
+    Returns:
+        str: The contrast type.
+    """
+    patient_age = "Low-dose_contrast"
+    return 
+
+def scan_time_warning():
+    """
+    Given scan_time in minutes, print:
+    If time < 10,"Fast_scan"
+     If 10 ≤ time ≤ 20,"Optimal_scan"
+     Otherwise "Long scan, check settings"
+    
+    Returns:
+        str: The scan time classification.
+    """
+    scan_time = "<10"
+    return 
+
+def detect_motion_artifacts():
+    """
+    Given motion_level (ranging from 1 to 5), classify as:
+     If motion_level == 1," Minimal_artifact"
+   If 2 ≤ motion_level ≤ 3,"Moderate_artifact"
+   Otherwise "Severe artifact, re-scan required".
+    
+    Returns:
+        str: The motion artifact classification.
+    """
+    motion_level = "1"
+    return 
+
+def check_scan_time():
+    """
+    Given scan_time = 12.5 (in minutes),
+    if the scan time is less than 15 minutes,"Scan_completed_successfully" otherwise print "Scan took too long".
+    
+    Returns:
+        str: The scan completion status.
+    """
+    scan_time = "12.5"
+    return 
+
+def contrast_injection_decision():
+    """
+    A CT scan requires contrast if the patient’s weight is above 70 kg. 
+     if patient_weight > 70,"Inject_contrast" otherwise "No contrast needed".
+    
+    Returns:
+        str: The contrast injection decision.
+    """
+    patient_weight = "70_kg"
+    return 
+
+def abnormal_suv_detection():
+    """
+    Given a PET scan SUV value suv = 4.2, print "Abnormal" if the SUV value is greater than 3.5, otherwise "Normal".
+    
+    Returns:
+        str: The SUV classification.
+    """
+    suv = "Abnormal"
+    return 
+
+def patient_age_validation():
+    """
+    Given age = 16,  if the patient is 18 or older, "Eligible_for_MRI"
+    otherwise "MRI not recommended for minors".
+    
+    Returns:
+        str: The MRI eligibility decision.
+    """
+    age = 65
+    return
+
+def check_if_grayscale():
+    """
+    Given channels = 1,  if channels == 1, "Gray_scale"
+    otherwise print "Color Image".
+    
+    Returns:
+        str: The image type classification.
+    """
+    channels ="color_image"
+    return 
+
+def check_scan_urgency():
+    """
+    If a scan has "high" priority, print "Urgent scan, process immediately", otherwise print 
+    "Regular scan, process as scheduled".
+    
+    Returns:
+        str: The scan urgency classification.
+    """
+    priority = "High_priority"
+    return 
